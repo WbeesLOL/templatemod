@@ -34,7 +34,7 @@ JUMP_STRENGTH = -10
 OBSTACLE_SPEED = -6
 FPS = 60
 VERSION = "1.0"
-LINK = "https://example.com/"
+LINK = "https://github.com/WbeesLOL/templatemod/"
 
 
 
@@ -307,7 +307,7 @@ def draw_custom_screen():
         untertext = font.render("Hier kannst du Mods sehen", True, BLACK)
         screen.blit(untertext, (20, 50))
 
-        tutorial_link = font.render("Tutorial: example.com", True, BLUE)
+        tutorial_link = font.render("Tutorial: github.com/WbeesLOL/templatemod/wiki/", True, BLUE)
         screen.blit(tutorial_link, (20, 100))
 
         mod_label = font.render("Deafault Mod     |   1.0", True, BLACK)
